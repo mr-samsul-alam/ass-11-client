@@ -8,7 +8,7 @@ const DBTwo = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("http://localhost:5000/users", data)
+      .post("https://desolate-tor-52952.herokuapp.com/users", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added Successfully");

@@ -11,12 +11,12 @@ const ServiceDetails = () => {
   const [data, setData] = useState([]);
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://desolate-tor-52952.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://desolate-tor-52952.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -30,7 +30,7 @@ const ServiceDetails = () => {
     data.userServices = ExactItem[0];
     data.ExactUser = ExactUsers[0];
     axios
-      .post("http://localhost:5000/usersServices", data)
+      .post("https://desolate-tor-52952.herokuapp.com/usersServices", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("Order Accepted");

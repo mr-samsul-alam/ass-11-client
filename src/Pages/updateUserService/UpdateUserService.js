@@ -31,7 +31,7 @@ const UpdateUserService = () => {
     setUserServices(updatedUser);
   };
   const handleUpdateUser = (e) => {
-    const url = `http://localhost:5000/users/${id}`;
+    const url = `https://desolate-tor-52952.herokuapp.com/users/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

@@ -17,7 +17,7 @@ const LoginBody = () => {
 
   const redirect_uri = location.state?.from || "/home";
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://desolate-tor-52952.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
@@ -40,7 +40,7 @@ const LoginBody = () => {
           }
         }
         if (flag === 0) {
-          fetch("http://localhost:5000/users", {
+          fetch("https://desolate-tor-52952.herokuapp.com/users", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(newUser),
@@ -86,7 +86,7 @@ const LoginBody = () => {
           }
         }
         if (flag === 0) {
-          fetch("http://localhost:5000/users", {
+          fetch("https://desolate-tor-52952.herokuapp.com/users", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(newUser),
