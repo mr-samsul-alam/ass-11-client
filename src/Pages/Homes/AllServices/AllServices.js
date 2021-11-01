@@ -11,17 +11,7 @@ const AllServices = () => {
   return (
     <div className="my-5">
       <div className="title">
-        <h4 className="sub-heading">See Our All Packages</h4>
-        <h3 class="heading">
-          <span>P</span>
-          <span>A</span>
-          <span>C</span>
-          <span>K</span>
-          <span>A</span>
-          <span>G</span>
-          <span>E</span>
-          <span>S</span>
-        </h3>
+        <h1 className="sub-heading">Our All Packages</h1> 
       </div>
       <div className="container ">
         <div class="row row-cols-1 row-cols-md-3 g-4 my-5">

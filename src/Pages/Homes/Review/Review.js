@@ -28,16 +28,7 @@ const Review = () => {
   return (
     <div className="my-5">
       <div className="title">
-        <h4 className="sub-heading">Our Customers Review</h4>
-        <h3 class="heading">
-          <span>r</span>
-          <span>e</span>
-          <span>v</span>
-          <span>i</span>
-          <span>e</span>
-          <span>w</span>
-          <span>y</span>
-        </h3>
+        <h4 className="sub-heading">Our Customers Review</h4> 
       </div>
       <div className="review_slider">
         <div className="container">
@@ -48,10 +39,7 @@ const Review = () => {
                   <img src={sliderImg1} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
@@ -67,10 +55,7 @@ const Review = () => {
                   <img src={sliderImg2} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
@@ -86,10 +71,7 @@ const Review = () => {
                   <img src={sliderImg3} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
@@ -105,11 +87,7 @@ const Review = () => {
                   <img src={sliderImg4} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
-                  </p>
+                    Thank you so much for your kind words.We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you.It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip.Best wishes, Dan </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
                     <i class="fas fa-star color-pink"></i>
@@ -124,10 +102,7 @@ const Review = () => {
                   <img src={sliderImg2} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
@@ -143,10 +118,7 @@ const Review = () => {
                   <img src={sliderImg4} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>
@@ -162,10 +134,7 @@ const Review = () => {
                   <img src={sliderImg4} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Thank you so much for your kind words. We are delighted that you have found the experience effortless and easy as our aim is to make the process of organising a journey such as this as enjoyable as possible for you. It has been a pleasure assisting you with your plans for what is sure to be a wonderful and exciting trip. Best wishes, Dan
                   </p>
                   <div class="stars">
                     <i class="fas fa-star color-pink"></i>

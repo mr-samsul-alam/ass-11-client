@@ -14,7 +14,7 @@ const Header = () => {
           <div className="container-fluid">
             <a className="navbar-brand fw-bold fs-2" href="/">
               <span className="color-pink">T</span>ravel{" "}
-              <span className="color-pink">...</span>
+              <span className="color-pink">Guro</span>
             </a>
             <button
               className="navbar-toggler"
@@ -53,18 +53,7 @@ const Header = () => {
                   >
                     About Us
                   </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    className="nav-link fw-bold"
-                    to="/blog"
-                    activeStyle={{
-                      color: "#ff7c5b",
-                    }}
-                  >
-                    Blogs
-                  </NavLink>
-                </li>
+                </li> 
                 <li className="nav-item">
                   <NavLink
                     className="nav-link fw-bold"
@@ -99,10 +88,7 @@ const Header = () => {
                   </NavLink>
                 </li>
               </ul>
-              <div className="d-flex">
-                <button className="btn btn-travel fw-bold me-3">
-                  Book A Tour{" "}
-                </button>
+              <div className="d-flex"> 
                 {user.email ? (
                   <Link to="/login">
                     <button onClick={logOut} className="btn btn-travel fw-bold">

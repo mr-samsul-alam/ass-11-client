@@ -15,16 +15,7 @@ const Gallery = () => {
     <div className="gallery my-5">
       <div className="">
         <div className="title">
-          <h4 className="sub-heading">Ours Gallery</h4>
-          <h3 class="heading">
-            <span>g</span>
-            <span>a</span>
-            <span>l</span>
-            <span>l</span>
-            <span>e</span>
-            <span>r</span>
-            <span>y</span>
-          </h3>
+          <h4 className="sub-heading">Ours Gallery</h4> 
         </div>
         <div class="box-container">
           <div class="box">
